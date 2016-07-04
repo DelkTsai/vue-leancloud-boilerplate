@@ -5,3 +5,6 @@ start.sh
 # VIM
 *~
 *.swp
+.avoscloud/
+.idea/
+fe/.idea/
