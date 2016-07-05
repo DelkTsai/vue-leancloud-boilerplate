@@ -1,5 +1,7 @@
 # Vue.js + LeanCloud（node.js）前后端分离开发样板
 
+- 如果使用了 async/await 语法，目前使用`lean deploy`命令行直接部署会报错，使用 git 部署并不会，所以暂时先用`lean deploy -g`进行部署吧~
+
 LeanCloud 作为国内领先的 Baas 云服务提供者，简化了很多相对复杂的操作，使得前端工程师 hold 住一个完整项目变得简单。
 
 >通过 LeanEngine 云引擎部署前后端代码，配合高效的数据存储完全解放了生产力，尤其是2015年 LeanCloud 推出的 LeanEngine-Full-Stack 解决方案，它整合了当前 Web 技术的通用方案，并与 LeanEngine 紧密结合，将基础架构、自动化构建、国际化方案等底层技术解决方案组织成一个整体。用户可以通过最简单的方式，直接开始业务开发，不必再纠结那些底层的技术选型了。
